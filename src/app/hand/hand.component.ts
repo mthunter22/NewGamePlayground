@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CARDS } from '../cards';
+import { Card } from '../card';
 
 @Component({
   selector: 'app-hand',
@@ -7,11 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HandComponent implements OnInit {
 
-  card = Card[]
+  cards = CARDS;
 
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
